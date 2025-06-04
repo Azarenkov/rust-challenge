@@ -1,10 +1,10 @@
-mod model;
+mod domain;
 mod generator;
 mod pipeline;
-mod storage;
+// mod storage;
 
-use generator::generate_transfers;
-use pipeline::calculate_user_stats;
+// use generator::generate_transfers;
+// use pipeline::calcula   te_user_stats;
 
 fn main() {
     let transfers = generate_transfers(10_000);
