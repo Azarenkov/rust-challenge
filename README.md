@@ -26,6 +26,7 @@
 
   - **Response:**
     `200 OK` – Array of user stats objects
+
     Example:
     ```json
     [
