@@ -44,10 +44,10 @@
 
 ## Server Configuration
 ```bash
-    PORT=8080
-    CLICKHOUSE_URL=http://localhost:8123
-    CLICKHOUSE_USER=default
-    CLICKHOUSE_PASSWORD=
-    DATA_GENERATION_COUNT=100
+    PORT=<your_port>
+    CLICKHOUSE_URL=<your_clickhouse_url>
+    CLICKHOUSE_USER=<your_clickhouse_user>
+    CLICKHOUSE_PASSWORD=<your_clickhouse_password>
+    DATA_GENERATION_COUNT=40
     RUST_LOG=info --Optional
 ```
