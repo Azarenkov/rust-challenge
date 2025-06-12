@@ -42,7 +42,7 @@
   - **Error Responses:**
     - `405 Method Not Allowed` for unsupported methods (POST, PUT, DELETE).
 
-# Server Configuration
+## Server Configuration
 ```bash
     PORT=8080
     CLICKHOUSE_URL=http://localhost:8123
