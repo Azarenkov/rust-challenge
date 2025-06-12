@@ -1,3 +1,8 @@
+[![Rust](https://img.shields.io/badge/Rust-%23000000.svg?e&logo=rust&logoColor=blue)](#)
+[![Clickhouse](https://img.shields.io/badge/ClickHouse-FFCC01?logo=clickhouse&logoColor=white)](#)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)](#)
+[![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)](#)
+
 # Rust Challenge
 
 **Rust Challenge** is a project designed to demonstrate working with Rust, Actix Web, and ClickHouse. It generates and stores transfer data, then provides API endpoints for retrieving user statistics.
