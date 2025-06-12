@@ -1,17 +1,11 @@
-mod domain;
-mod generator;
-mod pipeline;
-// mod storage;
+use anyhow::Context;
+use anyhow::Result;
+use rust_challenge::{config::Config, run};
 
-// use generator::generate_transfers;
-// use pipeline::calcula   te_user_stats;
+#[actix_web::main]
+async fn main() -> Result<()> {
+    let config = Config::from_env().context("Failed to load config from environment")?;
 
-fn main() {
-    let transfers = generate_transfers(10_000);
-
-    let stats = calculate_user_stats(&transfers);
-
-    for stat in stats.iter().take(10) {
-        println!("{:?}", stat);
-    }
+    run(&config).await?;
+    Ok(())
 }
