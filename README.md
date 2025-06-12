@@ -31,9 +31,11 @@
     ```json
     [
       {
-        "user_id": "string",
-        "total_volume": 1234.56,
-        "max_balance": 789.01
+        "address": "0xPSxka53Qdp",
+        "total_volume": 8686.785780697088,
+        "avg_buy_price": 1.0487974699811131,
+        "avg_sell_price": 1.0303341591954556,
+        "max_balance": 429.87521997328713
       },
       ...
     ]
