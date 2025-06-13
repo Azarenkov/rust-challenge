@@ -56,5 +56,6 @@
     CLICKHOUSE_USER=<your_clickhouse_user>
     CLICKHOUSE_PASSWORD=<your_clickhouse_password>
     DATA_GENERATION_COUNT=40
+    CLICKHOUSE_DB=<your_clickhouse_database>
     RUST_LOG=info --Optional
 ```
